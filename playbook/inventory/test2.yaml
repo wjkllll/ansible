@@ -1,0 +1,18 @@
+#yaml三种常用结构第一种：Key: value格式
+name: "Ansible"
+version: 2.14.2
+python_version: 3.10.6
+
+#第二种list表结构如：module表
+module:
+- "Network"
+- "Linux Server"
+- "Windows Server"
+
+#第三种格式字典结构：
+plugins:
+  action_plugin: true
+  cache_plugin: true
+  shell_plugin: false
+
+#https://yaml.org/

@@ -1,0 +1,6 @@
+- hosts: web
+  name: play-test
+
+  tasks:
+  - name: check_host connection
+    ping:

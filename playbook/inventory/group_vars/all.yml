@@ -1,0 +1,3 @@
+ansible_user: wjkllll
+ansible_password: wjk88302818
+ansible_connection: ssh

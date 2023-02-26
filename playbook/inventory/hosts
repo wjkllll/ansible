@@ -1,0 +1,16 @@
+[all]
+ansible-node2
+ansible-node1
+
+[linux2]
+#host2 ansible_host=47.122.6.225
+
+[linux1:vars]
+ansible_user=wjkllll
+ansible_ssh_pass=wjk88302818
+ansible_connection=ssh
+
+[linux2:vars]
+#ansible_user=user
+#ansible_ssh_pass=password
+#ansible_connection=ssh
