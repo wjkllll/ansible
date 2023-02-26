@@ -5,7 +5,7 @@ ansible-node1 ansible_host=192.168.140.134
 [linux2]
 #host2 ansible_host=47.122.6.225
 
-[linux1:vars]
+[all:vars]
 ansible_user=wjkllll
 ansible_ssh_pass=wjk88302818
 ansible_connection=ssh
