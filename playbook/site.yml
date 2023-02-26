@@ -10,7 +10,7 @@
         path: /etc/test
         state: directory
 
-    - name: if file doesnot exit
+    - name: Copy file
       copy: 
         src: file/test.txt
         dest: /etc/test/test.txt
