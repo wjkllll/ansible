@@ -1,6 +1,6 @@
 [linux1]
 ansible-node2 ansible_host=47.122.6.225
-ansible-node1 ansible_host=192.168.140.134
+ansible-node1 ansible_host=192.168.140.133
 
 [linux2]
 #host2 ansible_host=47.122.6.225
